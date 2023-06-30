@@ -135,7 +135,20 @@ body {
     background-color: #986309;
 }
 
+/* About Section */
+.about {
+    padding: 8rem 7% 1.4rem;
+}
 
+.about h2 {
+    text-align: center;
+    font-size:2.6rem;
+    margin-bottom:3rem:
+}
+
+.about h2 span {
+    color: var(--primary);
+}
 
 
 
