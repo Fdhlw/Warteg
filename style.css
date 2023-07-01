@@ -224,18 +224,73 @@ body {
 }
 
 /* About Section */
-.about {
+.about, .menu {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2, .menu h2 {
     text-align: center;
     font-size:2.6rem;
     margin-bottom:3rem:
 }
 
-.about h2 span {
+.about h2 span, .menu h2 span {
     color: var(--primary);
+}
+
+.about .row{
+    display: flex;
+}
+
+.about .row .about-img{
+    flex: 1 1 45rem;
+}
+
+.about .row .about-img img{
+    border-radius: 10%;
+    width: 90%;
+    height: 50%;
+}
+
+.about .row .content{
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h3{
+    font-size: 1.8;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p{
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 100;
+    list-style: 1.6;
+}
+
+/* Menu Section */
+.menu h2{
+    margin-bottom: 1rem;
+}
+.menu row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.menu-card{
+    text-align: center;
+}
+
+.menu .row .menu-card img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.menu .row .menu-card .menu-card-title{
+    margin: 1rem auto 0.5rem;
 }
 
 
@@ -301,6 +356,25 @@ body {
     .navbar .search-form {
         width: 90%;
         right: 2rem;
+    }
+
+     .about .row{
+        flex-wrap: wrap;
+    }
+    
+    .about .row .about-img img{
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .conten h3{
+        margin-top: 1rem;
+        font-size: 1.6rem;
     }
 }
 
