@@ -279,7 +279,47 @@ body {
     margin-top: 5rem;
     justify-content: center;
 }
+.menu-card{
+    text-align: center;
+}
 
+.menu-card .menu-stars{
+    font-size: 1.7rem;
+    padding: 0.8em;
+    color:var(--primary);
+    
+}
+
+.menu-card .menu-stars .star{
+    fill: var(--primary);
+}
+
+.menu-card .menu-card-icons{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.menu-card .menu-card-icons a{
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+    margin: 0.2rem;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-card .menu-card-icons a:hover{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    
+}    
 .menu .row .menu-card{
     text-align: center;
 }
