@@ -500,6 +500,10 @@ footer .credit a{
         margin-top: 1rem;
         font-size: 1.6rem;
     }
+
+    .contact .row{
+        flex-wrap: wrap;
+    }
 }
 
 /* Hp */
