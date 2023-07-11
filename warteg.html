@@ -35,8 +35,6 @@
 
         <div class="navbar-extra">
             <a href="#" id="search-button"><i data-feather="search"></i></a>
-            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
-            <span class="quantity">0</span>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
 
@@ -48,36 +46,20 @@
     <!-- Search Form End -->
 
     <!--Shopping cart start-->
-    <div class="shopping-cart">
-        <div class="cart-item">
-            <img src="img/Product-1.jpeg" alt=" Product 1">
-            <div class="item-detail">
-                <h3>Product 1</h3>
-                <div class="item-price">IDR 30K</div>
-            </div>
-            <i data-feather="trash-2" class="remove-item"></i>
-        </div>
-        <div class="cart-item">
-            <img src="img/Product-1.jpeg" alt=" Product 1">
-            <div class="item-detail">
-                <h3>Product 1</h3>
-                <div class="item-price">IDR 30K</div>
-            </div>
-            <i data-feather="trash-2" class="remove-item"></i>
-        </div>
-        <div class="cart-item">
-            <img src="img/Product-1.jpeg" alt=" Product 1">
-            <div class="item-detail">
-                <h3>Product 1</h3>
-                <div class="item-price">IDR 30K</div>
-            </div>
-            <i data-feather="trash-2" class="remove-item"></i>
-        </div>
-        <div class="total">0</div>
+    <div class="shopping">
+        <img src="img/shopping.png">
+        <span class="quantity">0</span>
+    </div>
+    <div class="card">
+        <h4>Pesanan Anda</h4>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
             <div class="closeShopping">Close</div>
+        </div>
     </div>
     <!--Shopping cart End-->    
-
     </nav>
     <!--Navbar End-->
 
@@ -108,118 +90,12 @@
     </section>
     <!-- About Section End -->
 
+
     <!-- Menu Section Start -->
     <section id="menu" class="menu">
         <h2><span>Menu</span>Kami</h2>
-        <div class="row">
-            <div class="menu-card">
-                <img src="img/migoreng.jpeg" alt="Mie Goreng" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Mie Goreng- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                </div>
-                <p class="menu-card-price">RP8.000,00</p>
-                <div class="order-btn">
-                    <button type="submit" class="btn-order">Add To Cart</button>
-                </div>
-                 
-            </div>
-            <div class="menu-card">
-                <img src="img/2.jpg" alt="Nasi Bakar" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Nasi Bakar- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star"></i>
-                    <i data-feather="star"></i>
-                </div>
-                <p class="menu-card-price">RP10.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-            <div class="menu-card">
-                <img src="img/nasigoreng.jpeg" alt="Nasi Goreng" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Nasi Goreng- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star"></i>
-                </div>
-                <p class="menu-card-price">RP12.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-            <div class="menu-card">
-                <img src="img/soto.jpeg" alt="soto" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Soto Ayam- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>></i>
-                </div>
-                <p class="menu-card-price">RP8.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-            <div class="menu-card">
-                <img src="img/jusjeruk.jpeg" alt="Jus Jeruk" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Jus Jeruk- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                </div>
-                <p class="menu-card-price">RP4.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-            <div class="menu-card">
-                <img src="img/kopilatte.jpeg" alt="Coffee Latte" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Kopi Latte- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star"></i>
-                    <i data-feather="star"></i>
-                </div>
-                <p class="menu-card-price">RP6.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-            <div class="menu-card">
-                <img src="img/esteh.jpeg" alt="Es Teh" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Es Teh- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star"></i>
-                </div>
-                <p class="menu-card-price">RP3.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-            <div class="menu-card">
-                <img src="img/wedangjahe.jpeg" alt="wedangjahe" class = "menu-card-img">
-                <h3 class="menu-card-title"> -Wedang Jahe- </h3>
-                <div class="menu-stars">
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star" class="star"></i>
-                    <i data-feather="star"></i>
-                    <i data-feather="star"></i>
-                </div>
-                <p class="menu-card-price">RP5.000,00</p>
-                <button type="submit" class="btn-order">Add To Cart</button>
-            </div>
-           
+        <div class="list">
+              
         </div>
     </section>
     <!-- Menu Section End -->
